@@ -78,6 +78,6 @@ app.post('/transaction/:id', (req, res) => {
     })
 })
 
-app.listen(3000, (req, res) => {
+app.listen(process.env.PORT, (req, res) => {
     console.log("Server Started");
 })
